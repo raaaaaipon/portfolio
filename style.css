@@ -11,21 +11,34 @@ html, body {
     vertical-align: top;
     font-size: 4rem;
     font-weight: 700;
-    padding: -5%
 }
+.nav {
+    margin-bottom: 1rem;
+}
+.width-100 {
+    width: 100vw;
+}
+
+.nav-link {
+    border-bottom: .1rem solid transparent;
+}
+
 li {
     display: inline;
+}
+.navbar-toggler {
+    padding: .75rem;
 }
 .navbar {
     text-transform: uppercase;
     font-size: 1rem;
-    font-weight: 100;
+    font-weight: 300;
 }
 .navbar-brand img {
     height: 5rem;
 }
 .navbar-nav li {
-    padding-right: .8rem;
+    padding-right: 0rem;
 }
 .nav-link {
     font-size: 1.2rem;
